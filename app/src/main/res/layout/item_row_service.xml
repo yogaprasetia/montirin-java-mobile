@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/judul_jasa"
+            android:text="Judul Jasa"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_user"
+            android:text="Nama Mitra"
+            android:textStyle="normal"
+            android:textSize="10dp"
+            android:textColor="#000"
+            android:layout_below="@id/judul_jasa"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc_jasa"
+            android:layout_below="@id/name_user"
+            android:text="Deskripsi"
+            android:textStyle="italic"
+            android:textSize="13sp"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jarak"
+            android:layout_below="@id/desc_jasa"
+            android:text="Jarak Darimu :"
+            android:textSize="13sp"
+            android:textColor="#000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_below="@id/jarak"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/no_hp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/text_shadow_white"
+                android:layout_height="wrap_content"
+                android:text="Pesan Via WA" />
+
+            <Button
+                android:background="@drawable/button"
+                android:id="@+id/lokasi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/text_shadow_white"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:text="Lokasi" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

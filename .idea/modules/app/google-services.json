@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "966770924096",
+    "firebase_url": "https://montirin-dffec.firebaseio.com",
+    "project_id": "montirin-dffec",
+    "storage_bucket": "montirin-dffec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966770924096:android:5172b884d5c92766",
+        "android_client_info": {
+          "package_name": "com.montirin.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966770924096-56rgh954tjjkep7u2p3hr71ichr0mor1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.montirin.app",
+            "certificate_hash": "7b969cff4e7443a4ccbf1f67ab573e27c5ce3f34"
+          }
+        },
+        {
+          "client_id": "966770924096-37lqpt74rbqca0rbgerg994lheupingg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.montirin.app",
+            "certificate_hash": "f4b939c6ac54a97055250472e61a3111a7f0b98d"
+          }
+        },
+        {
+          "client_id": "966770924096-rh1uuvbhsrdd1sljn2etb24a1ndusnoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaSQS8CmVDVDnqLzIwDEjfbkAlmE-qN20"
+        },
+        {
+          "current_key": "AIzaSyCUzHV__UvXELZR8bJL8Ck4x6fiXHoa8zI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966770924096-rh1uuvbhsrdd1sljn2etb24a1ndusnoc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966770924096:android:f3e4f79f2bf688b7",
+        "android_client_info": {
+          "package_name": "com.montirinmitra.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966770924096-6mjmmnkvad3lfa6g2kll3aomai8p00qo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.montirinmitra.app",
+            "certificate_hash": "dfbe183e8c53fb77ecf8d88f1e5a405f70617e82"
+          }
+        },
+        {
+          "client_id": "966770924096-rh1uuvbhsrdd1sljn2etb24a1ndusnoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaSQS8CmVDVDnqLzIwDEjfbkAlmE-qN20"
+        },
+        {
+          "current_key": "AIzaSyCUzHV__UvXELZR8bJL8Ck4x6fiXHoa8zI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966770924096-rh1uuvbhsrdd1sljn2etb24a1ndusnoc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
